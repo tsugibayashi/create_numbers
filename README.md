@@ -41,10 +41,10 @@ python3をデフォルトのpythonにすることができます。
 | normal | hand_number_v1_864_96.pngを生成する |
 | box | hand_box_number_v1_864_96.pngを生成する |
 
-(3) ./images/ に移動し、画像データ hand_number_v1_864_96.png を MyShogiにコピーします。
+(3) ./images/ に移動し、画像データ *.png を MyShogiにコピーします。
 
     $ cd images/
-    $ cp -pv hand_number_v1_864_96.png <MyShogiのインストール先>/image/
+    $ cp -pv *.png <MyShogiのインストール先>/image/
 
 ## 各画像ファイルの説明
 
