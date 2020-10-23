@@ -80,7 +80,14 @@ def vconcat_2files (output, file1, file2):
 # 出力ファイル名
 output1 = './tmp/hconcat1.png'
 output2 = './tmp/hconcat2.png'
-output  = './images/hand_number_v1_864_96.png'
+
+# 引数から、出力ファイル名を判断する
+args = sys.argv
+output_name = args[1]
+if (output_name == 'normal'):
+    output  = './images/hand_number_v1_864_96.png'
+else:
+    output  = './images/hand_box_number_v1_864_96.png'
 
 # 画像ファイル名
 # 1段目
