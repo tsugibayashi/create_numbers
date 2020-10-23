@@ -34,7 +34,12 @@ python3をデフォルトのpythonにすることができます。
 (2) スクリプト "create_numbers.sh" を実行し、画像を生成します。
 
     $ cd create_numbers/
-    $ ./create_numbers.sh
+    $ ./create_numbers.sh <画像の種類>
+
+| 画像の種類 | 説明 |
+----|----
+| normal | hand_number_v1_864_96.pngを生成する |
+| box | hand_box_number_v1_864_96.pngを生成する |
 
 (3) ./images/ に移動し、画像データ hand_number_v1_864_96.png を MyShogiにコピーします。
 
@@ -45,7 +50,8 @@ python3をデフォルトのpythonにすることができます。
 
 | ファイル名 | 説明 |
 ----|----
-| hand_number_v1_864_96.png | 持駒数を表す画像 |
+| hand_number_v1_864_96.png | 駒台に置かれた駒の数を表す画像 |
+| hand_box_number_v1_864_96.png | 駒箱に置かれた駒の数を表す画像 |
 
 ## ライセンス
 
