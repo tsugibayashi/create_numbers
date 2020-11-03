@@ -2,7 +2,20 @@
 
 ## 概要
 
-本ソフトウェアを使って、[MyShogi](https://github.com/yaneurao/MyShogi)の画像 hand_number_v1_864_96.png を作成することができます。
+本ソフトウェアを使って、[MyShogi](https://github.com/yaneurao/MyShogi)の下記画像を作成することができます。
+
+| ファイル名 | 説明 |
+----|----
+| hand\_number\_v1\_864\_96.png | 駒台に置かれた駒の数を表す画像 |
+| hand\_box\_number\_v1\_864\_96.png | 駒箱に置かれた駒の数を表す画像 |
+| number\_v1\_873\_19.png | 将棋盤の筋(１から９)に使用するための画像 |
+| number\_v1\_22\_954.png | 将棋盤の段(一から九)に使用するための画像 |
+| number\_v2\_873\_19.png | 将棋盤の筋(1から9)に使用するための画像 |
+| number\_v2\_22\_954.png | 将棋盤の段(aからi)に使用するための画像 |
+| number\_v1\_485\_19.png | 55将棋の筋(１から５)に使用するための画像 |
+| number\_v1\_22\_530.png | 55将棋の段(一から五)に使用するための画像 |
+| number\_v2\_485\_19.png | 55将棋の筋(1から5)に使用するための画像 |
+| number\_v2\_22\_530.png | 55将棋の段(aからe)に使用するための画像 |
 
 ## 対応環境
 
@@ -31,17 +44,25 @@ python3をデフォルトのpythonにすることができます。
     $ cd <作業用ディレクトリ>
     $ git clone https://github.com/tsugibayashi/create_numbers
 
-(2) スクリプト "create_numbers.sh" を実行し、画像を生成します。
+(2) スクリプト "create\_numbers.sh" を実行し、画像を生成します。
 
     $ cd create_numbers/
     $ ./create_numbers.sh <画像の種類>
 
 | 画像の種類 | 説明 |
 ----|----
-| normal | hand_number_v1_864_96.pngを生成する |
-| box | hand_box_number_v1_864_96.pngを生成する |
+| normal | hand\_number\_v1\_864\_96.pngを生成する |
+| box | hand\_box\_number\_v1\_864\_96.pngを生成する |
+| row1 | number\_v1\_873\_19.pngを生成する |
+| column1 | number\_v1\_22\_954.pngを生成する |
+| row2 | number\_v2\_873\_19.pngを生成する |
+| column2 | number\_v2\_22\_954.pngを生成する |
+| 55-row1 | number\_v1\_485\_19.pngを生成する |
+| 55-column1 | number\_v1\_22\_530.pngを生成する |
+| 55-row2 | number\_v2\_485\_19.pngを生成する |
+| 55-column2 | number\_v2\_22\_530.pngを生成する |
 
-(3) ./images/ に移動し、画像データ *.png を MyShogiにコピーします。
+(3) ./images/ に移動し、画像データ \*.png を MyShogiにコピーします。
 
     $ cd images/
     $ cp -pv *.png <MyShogiのインストール先>/image/
@@ -50,8 +71,16 @@ python3をデフォルトのpythonにすることができます。
 
 | ファイル名 | 説明 |
 ----|----
-| hand_number_v1_864_96.png | 駒台に置かれた駒の数を表す画像 |
-| hand_box_number_v1_864_96.png | 駒箱に置かれた駒の数を表す画像 |
+| hand\_number\_v1\_864\_96.png | 駒台に置かれた駒の数を表す画像 |
+| hand\_box\_number\_v1\_864\_96.png | 駒箱に置かれた駒の数を表す画像 |
+| number\_v1\_873\_19.png | 将棋盤の筋(１から９)に使用するための画像 |
+| number\_v1\_22\_954.png | 将棋盤の段(一から九)に使用するための画像 |
+| number\_v2\_873\_19.png | 将棋盤の筋(1から9)に使用するための画像 |
+| number\_v2\_22\_954.png | 将棋盤の段(aからi)に使用するための画像 |
+| number\_v1\_485\_19.png | 55将棋の筋(１から５)に使用するための画像 |
+| number\_v1\_22\_530.png | 55将棋の段(一から五)に使用するための画像 |
+| number\_v2\_485\_19.png | 55将棋の筋(1から5)に使用するための画像 |
+| number\_v2\_22\_530.png | 55将棋の段(aからe)に使用するための画像 |
 
 ## ライセンス
 

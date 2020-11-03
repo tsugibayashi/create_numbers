@@ -5,9 +5,12 @@ import cv2
 import numpy
 
 ### variables
-width  = 48
-height = 48
 output = './tmp/blank.png'
+
+# 引数から、画像のサイズを取得する
+args = sys.argv
+width = int(args[1])
+height = int(args[2])
 
 # 出力用のブランク画像の作成
 img = numpy.zeros((height, width, 3), numpy.uint8)
